@@ -1,0 +1,59 @@
+/* Estilos Generales */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(imagenes/fondo1.jpg) no-repeat center center/cover;
+}
+
+/* Contenedores */
+.contenedor-principal{
+    width: 60vh;
+    max-width: 600px;
+    min-height: 240px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 5px solid black;
+}
+.contenedor.botones{
+    padding: 20px;
+}
+
+/* Cronometro */
+#cronometro{
+    width: 100%;
+    font-size: 80px;
+    font-weight: bold;
+    user-select: none;
+}
+
+/* Bontones */
+.boton{
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: 5px solid black;
+}
+#boton-inicio-pausa.iniciar,
+#boton-inicio-pausa.iniciar i{
+    background-color: #08E008;
+}
+#boton-inicio-pausa.pausar,
+#boton-inicio-pausa.pausar i{
+    background-color: #ffdc00;
+} 
+#boton-reiniciar{
+    background-color: red;
+}
